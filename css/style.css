@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway";
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_container {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_container nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+.header_container nav ul a {
+  color: #282B22;
+  font-family: "Raleway"!important;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.header_container nav ul a:hover {
+  color: #AE7B3C;
+}
+
+.header_container .contact {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+
+.header_container .contact .auth {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.header_container .auth a {
+  color: #3D4A39;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.header_container .auth a:hover {
+  color: #AE7B3C;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+}/*# sourceMappingURL=style.css.map */
