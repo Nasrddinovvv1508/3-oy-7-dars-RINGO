@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +18,22 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  background-color: #AE7B3C;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.0509803922);
+  cursor: pointer;
+  border: none;
+  transition: all 0.4s;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.btn:hover {
+  background-color: #834f0f;
+}
+
 .header_container {
   padding: 20px 0px;
   display: flex;
@@ -31,10 +48,10 @@ a {
 
 .header_container nav ul a {
   color: #282B22;
-  font-family: "Raleway"!important;
-  font-weight: 500;
-  font-size: 16px;
-  transition: all 0.4s;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  transition: all 0.2s;
   cursor: pointer;
 }
 
@@ -70,4 +87,103 @@ a {
   max-width: 1200px;
   width: 100%;
   margin: 0px auto;
+}
+
+main {
+  height: 687px;
+}
+
+main .section {
+  background-image: url(../img/main-bg.png);
+  height: 687px;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main .bg-section {
+  background-image: url(../img/main-bg-image.png);
+  height: 687px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 120px;
+}
+
+main .main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .main-wrapper .main-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 25px;
+  margin-top: 100px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+main h1 {
+  color: #fff;
+  font-family: "Lato";
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main p {
+  max-width: 537px;
+  color: #c7c7c5;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+main .btn-1 {
+  padding: 22px 56px;
+}
+
+main .main-down button {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+main .main-down button:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+main .main-down .arrows {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+main .main-down .arrows img {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+main .main-down .arrows img:hover {
+  opacity: 58%;
+}
+
+main .main-down .buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }/*# sourceMappingURL=style.css.map */
