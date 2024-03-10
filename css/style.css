@@ -1,4 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@media (max-width: 1000px) {
+  .container {
+    max-width: 960px;
+    width: 100%;
+  }
+  main .section .bg-section {
+    background-image: url("../img/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering%201.png");
+  }
+  main .section .bg-section .main-wrapper {
+    background-image: url("../img/bg-image1000-2.png");
+  }
+  main .main-down {
+    width: 920px;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    max-width: 600px;
+    width: 100%;
+  }
+  .header_container .btn-click {
+    display: block;
+  }
+  .header_container #ul {
+    display: none;
+  }
+  main .section .bg-section {
+    background-image: url("../img/main-bg-640.png");
+  }
+  main .section .bg-section .main-wrapper {
+    background-image: url("../img/main-bg-640-2.png");
+  }
+  main .main-down {
+    width: 600px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 300px;
+    width: 100%;
+  }
+  .header_container .contact {
+    display: none;
+  }
+  main .section .bg-section {
+    height: 495px;
+    background-image: url("../img/main-bg-320.png");
+  }
+  main .section .bg-section .main-wrapper {
+    height: 495px;
+    background-image: url("../img/main-bg-320-2.png");
+  }
+  main .main-wrapper h1 {
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+  main .main-wrapper p {
+    width: 300px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+  }
+  main .main-wrapper .main-down {
+    margin-top: 62px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +101,81 @@ a {
   background-color: #834f0f;
 }
 
+.header_container .btn-click {
+  display: none;
+}
+
+.list {
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 960px;
+    width: 100%;
+  }
+  main .section .bg-section {
+    background-image: url("../img/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering%201.png");
+  }
+  main .section .bg-section .main-wrapper {
+    background-image: url("../img/bg-image1000-2.png");
+  }
+  main .main-down {
+    width: 920px;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    max-width: 600px;
+    width: 100%;
+  }
+  .header_container .btn-click {
+    display: block;
+  }
+  .header_container #ul {
+    display: none;
+  }
+  main .section .bg-section {
+    background-image: url("../img/main-bg-640.png");
+  }
+  main .section .bg-section .main-wrapper {
+    background-image: url("../img/main-bg-640-2.png");
+  }
+  main .main-down {
+    width: 600px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 300px;
+    width: 100%;
+  }
+  .header_container .contact {
+    display: none;
+  }
+  main .section .bg-section {
+    height: 495px;
+    background-image: url("../img/main-bg-320.png");
+  }
+  main .section .bg-section .main-wrapper {
+    height: 495px;
+    background-image: url("../img/main-bg-320-2.png");
+  }
+  main .main-wrapper h1 {
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+  main .main-wrapper p {
+    width: 300px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+  }
+  main .main-wrapper .main-down {
+    margin-top: 62px;
+  }
+}
 .header_container {
   padding: 20px 0px;
   display: flex;
@@ -83,30 +225,98 @@ a {
   color: #AE7B3C;
 }
 
+.header_container .btn-click {
+  background-color: transparent;
+  border: none;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 0px auto;
 }
 
-main {
-  height: 687px;
+@media (max-width: 1000px) {
+  .container {
+    max-width: 960px;
+    width: 100%;
+  }
+  main .section .bg-section {
+    background-image: url("../img/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering%201.png");
+  }
+  main .section .bg-section .main-wrapper {
+    background-image: url("../img/bg-image1000-2.png");
+  }
+  main .main-down {
+    width: 920px;
+  }
 }
-
-main .section {
-  background-image: url(../img/main-bg.png);
-  height: 687px;
+@media (max-width: 640px) {
+  .container {
+    max-width: 600px;
+    width: 100%;
+  }
+  .header_container .btn-click {
+    display: block;
+  }
+  .header_container #ul {
+    display: none;
+  }
+  main .section .bg-section {
+    background-image: url("../img/main-bg-640.png");
+  }
+  main .section .bg-section .main-wrapper {
+    background-image: url("../img/main-bg-640-2.png");
+  }
+  main .main-down {
+    width: 600px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 300px;
+    width: 100%;
+  }
+  .header_container .contact {
+    display: none;
+  }
+  main .section .bg-section {
+    height: 495px;
+    background-image: url("../img/main-bg-320.png");
+  }
+  main .section .bg-section .main-wrapper {
+    height: 495px;
+    background-image: url("../img/main-bg-320-2.png");
+  }
+  main .main-wrapper h1 {
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+  main .main-wrapper p {
+    width: 300px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+  }
+  main .main-wrapper .main-down {
+    margin-top: 62px;
+  }
+}
+main .bg-section {
+  background-image: url("../img/main-bg.png");
+  height: 100%;
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-main .bg-section {
-  background-image: url(../img/main-bg-image.png);
-  height: 687px;
+main .main-wrapper {
+  background-image: url("../img/main-bg-image.png");
+  height: 100%;
+  min-width: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
-  padding-top: 120px;
 }
 
 main .main-wrapper {
@@ -119,13 +329,14 @@ main .main-wrapper .main-down {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   padding-top: 25px;
-  margin-top: 100px;
+  padding-bottom: 30px;
+  margin-top: 95px;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 main h1 {
+  margin-top: 120px;
   color: #fff;
   font-family: "Lato";
   font-size: 66px;
